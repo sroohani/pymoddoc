@@ -60,6 +60,12 @@ Listing all properties of Bitbake *bb* and *bblayers* modules:
 $ pymoddoc list bb bblayers
 ```
 
+Extracting the documentation of Bitbake *bb* and *bblayers* modules:
+
+```
+$ pymoddoc gen bb bblayers
+```
+ 
 ## Notes
 - The script prints to STDOUT. So, you might want to redirect its output to a file:
 
